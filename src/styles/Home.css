@@ -1,0 +1,100 @@
+/* Home.css */
+
+.home {
+  padding: 4rem 2rem;
+  background-color: #001f3f; /* Navy Blue */
+  color: #ffffff;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Container that wraps image with separate background */
+.image-wrapper {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1.5rem;
+}
+
+/* Float animation for profile image */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Slide-in animation for greeting */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.greeting {
+  animation: slideIn 1.5s ease-out forwards;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00d1ff; /* Light cyan for visual contrast */
+}
+
+/* Profile image */
+.profile-image {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #28a745;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+  animation: float 3s ease-in-out infinite;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+/* Description text */
+.home p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #f0f0f0;
+  margin-top: 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .greeting {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 180px;
+  }
+}

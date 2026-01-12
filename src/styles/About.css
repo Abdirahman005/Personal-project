@@ -1,0 +1,90 @@
+/* About Section Styles */
+.about {
+  position: relative;
+  padding: 3rem 2rem;
+  background: linear-gradient(to right, #e3f2fd, #fce4ec); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Animated Side Bars */
+.about::before,
+.about::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 8px;
+  height: 100%;
+  background: linear-gradient(180deg, #f06292, #64b5f6, #fdd835, #81c784);
+  background-size: 400% 400%;
+  animation: gradientMove 8s ease infinite;
+  z-index: 0;
+}
+
+.about::before {
+  left: 0;
+}
+
+.about::after {
+  right: 0;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Content stays above animation */
+.about > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Heading Style */
+.about h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+  color: #0d47a1;
+  font-weight: 700;
+}
+
+/* Paragraph/Text Style */
+.about p {
+  max-width: 900px;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #333333;
+  margin-bottom: 2rem;
+}
+
+/* Optional spacing between inner sections */
+.about .section {
+  margin-bottom: 2.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about h2 {
+    font-size: 2.2rem;
+  }
+
+  .about p {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  .about::before,
+  .about::after {
+    width: 4px;
+  }
+}
