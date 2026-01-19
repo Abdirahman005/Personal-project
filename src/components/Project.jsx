@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/Projects.css";
-import projects from "../data/projects";
+import "../styles/Project.css";
+import projects from "../data/projects"; // ✅ import default as "projects" to match your array
 
-function Projects() {
+function Project() {  // singular name matches App.jsx import
   return (
     <section id="projects" className="projects">
       <h2>Projects</h2>
@@ -17,9 +17,7 @@ function Projects() {
           >
             <div
               className="project-card"
-              style={{
-                backgroundImage: `url(${project.image})`,
-              }}
+              style={{ backgroundImage: `url(${project.image})` }}
             >
               <div className="project-title">{project.title}</div>
             </div>
@@ -30,4 +28,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Project;

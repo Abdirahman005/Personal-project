@@ -27,10 +27,10 @@ function Contact() {
       <h2>Contact Me</h2>
 
       <div className="contact-info">
-        <p><FaEnvelope className="icon" /> Email: <a href="mailto:updyrahmanmuktar@gmail.com">updyrahmanmuktar@gmail.com</a></p>
-        <p><FaGithub className="icon" /> GitHub: <a href="https://github.com/Abdirahman005" target="_blank" rel="noopener noreferrer">Abdirahman005</a></p>
-        <p><FaLinkedin className="icon" /> LinkedIn: <a href="https://www.linkedin.com/in/abdirahman-muktar-609b672b7" target="_blank" rel="noopener noreferrer">abdirahman-muktar</a></p>
-        <p><FaWhatsapp className="icon" /> WhatsApp: <a href="https://wa.me/254726611151" target="_blank" rel="noopener noreferrer">+254 726611151</a></p>
+        <p><FaEnvelope className="icon" /> Email: <a href="mailto:mohafathi24@gmail.com">mohafathi24@gmail.com</a></p>
+        <p><FaGithub className="icon" /> GitHub: <a href="https://github.com/FathiMohamedBille" target="_blank" rel="noopener noreferrer">FathiMohamedBille</a></p>
+        <p><FaLinkedin className="icon" /> LinkedIn: <a href="https://www.linkedin.com/in/fathi-mohamed-53726a312" target="_blank" rel="noopener noreferrer">fathi-mohamed</a></p>
+        <p><FaWhatsapp className="icon" /> WhatsApp: <a href="https://wa.me/254706360283" target="_blank" rel="noopener noreferrer">+254 06360283</a></p>
       </div>
 
       <form onSubmit={handleSubmit} className="contact-form">
