@@ -1,16 +1,41 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, responsive **personal portfolio website** built with **React**. It showcases my professional background, technical skills, and projects, and provides easy ways to get in touch.
 
-Currently, two official plugins are available:
+##  About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I am **Fathi Mohamed**, a Full Stack Software Engineer with hands-on experience designing and developing modern web applications across both frontend and backend systems. I focus on building reliable, scalable solutions that deliver efficient, user-centered experiences.
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive and mobile-friendly design
+- Modern UI with smooth styling and animations
+- About Me section with professional summary
+- Skills section highlighting frontend and backend technologies
+- Projects section to showcase completed work
+- Contact section with email and social links
+- Clean, maintainable React component structure
 
-## Expanding the ESLint configuration
+##  Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React
+- React Icons
+
+
+### Tools
+- Git & GitHub
+- Vite (for fast development and build)
+- VS Code
+
+
+##  Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+
+
